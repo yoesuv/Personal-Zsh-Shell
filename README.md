@@ -38,4 +38,5 @@ alias flemu29="flutter emulators --launch Pixel_3a_API_29"
 alias flemu30="flutter emulators --launch Pixel_4_API_30"
 
 alias clr="clear"
+alias rmss="rm ~/Desktop/*.png"
 ```
