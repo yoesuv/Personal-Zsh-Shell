@@ -9,6 +9,10 @@ export PATH="$PATH:/Users/yoesuv/Programs/flutter/bin"
 
 #Android
 export ANDROID_HOME=/Users/yoesuv/Programs/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 alias gfo="git fetch origin"
 alias gfop="git fetch origin --prune"
@@ -52,9 +56,12 @@ alias flbdev="flutter build apk --flavor development"
 alias flbstg="flutter build apk --flavor staging"
 alias flbprod="flutter build apk --flavor production"
 
-alias exsa="expo start --android"
-alias exsi="expo start --ios"
+alias exsa="npx expo start --android"
+alias exsi="npx expo start --ios"
+alias rnstart="clear && npx react-native start"
+alias rnandroid="clear && npx react-native run-android"
 
 alias clr="clear"
 alias rmss="rm ~/Desktop/*.png"
+alias adbresetperm="adb shell pm reset-permissions"
 ```
