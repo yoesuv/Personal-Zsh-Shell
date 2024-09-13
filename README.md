@@ -70,11 +70,21 @@ alias rniosdev="clear && npx react-native run-ios --scheme FlavorDev --configura
 alias rniosstaging="clear && npx react-native run-ios --scheme FlavorStaging --configuration StagingDebug"
 alias rniosprod="clear && npx react-native run-ios --scheme FlavorProduction  --configuration=ProductionDebug"
 
+alias rmlock32="rm /home/yoesuv/.android/avd/Pixel_6_API_32.avd/*.lock"
+alias rmlock33="rm /home/yoesuv/.android/avd/Pixel_6a_API_33.avd/*.lock"
+alias rmlock34="rm /home/yoesuv/.android/avd/Pixel_7_API_34.avd/*.lock"
+
 alias clr="clear"
 alias rmss="rm ~/Desktop/*.png"
 alias adbresetperm="adb shell pm reset-permissions"
 #export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
-export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
+#export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 alias npmi="npm install"
 alias npmilegacy="npm install --legacy-peer-deeps"
+
+alias switchjava11="asdf global java openjdk-11.0.2"
+alias switchjava15="asdf global java openjdk-15.0.2"
+alias switchjava17="asdf global java oracle-17.0.11"
+alias switchnodejs16="asdf global nodejs 16.20.2"
+alias switchnodejs18="asdf global nodejs 18.19.1"
 ```
